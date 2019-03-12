@@ -1,10 +1,11 @@
 # language: pt
-  Funcionalidade: Enviar um curriculo para uma vaga específica no site da Zup.
 
+Funcionalidade: Enviar um curriculo para uma vaga específica no site da Zup.
+#
 #    Cenario: Enviar um curriculo para uma vaga a partir da pagina inicial do site da zup.
 #      Dado que o usuario acessa a pagina inicial do site da Zup
-#      Quando o usuario clicar em PORT
-##      E descer a pagina até o botão 'Veja Nossas Vagas'
+#      Quando o usuario clicar em 'PT'
+#      E descer a pagina até o botão 'Veja Nossas Vagas'
 #      E clicar no botão 'Veja Nossas Vagas'
 #      E clicar na vaga "DESENVOLVEDOR BACKEND PYTHON PLENO"
 #      E clicar em ENVIE SEU CURRÍCULO

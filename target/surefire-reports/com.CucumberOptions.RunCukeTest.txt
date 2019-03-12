@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.CucumberOptions.RunCukeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 16.189 s <<< FAILURE! - in com.CucumberOptions.RunCukeTest
-Buscar uma vaga a partir da pagina inicial do site da Zup(Buscar uma vaga no site da Zup)  Time elapsed: 14.683 s  <<< ERROR!
-org.openqa.selenium.ElementNotVisibleException: 
-element not visible
-  (Session info: chrome=72.0.3626.119)
-  (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-45-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'sm2-nicolas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-45-generic', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578700 (2f1ed5f9343c13..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:39895}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
-Session ID: 2b4b27ec36b8d304a7022dd7741cc0ee
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.417 s - in com.CucumberOptions.RunCukeTest

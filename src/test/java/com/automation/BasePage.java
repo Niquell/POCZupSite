@@ -6,7 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 class BasePage {
   private WebDriver driver;
   BasePage () {
-    System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
+//    include $PATH to chromedriver or use \/
+//    System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
     this.driver = new ChromeDriver();
   }
 

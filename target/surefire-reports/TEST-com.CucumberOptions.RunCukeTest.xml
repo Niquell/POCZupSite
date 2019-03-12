@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.CucumberOptions.RunCukeTest" time="16.189" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.CucumberOptions.RunCukeTest" time="34.417" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/surefire/surefirebooter5817912966893762281.jar /home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/surefire 2019-02-28T18-12-47_496-jvmRun1 surefire2703494027735556258tmp surefire_03796552473183347100tmp"/>
+    <property name="sun.java.command" value="/home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/surefire/surefirebooter1612892754085601813.jar /home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/surefire 2019-03-12T15-33-48_532-jvmRun1 surefire8737519068647699462tmp surefire_07791623717584606200tmp"/>
     <property name="surefire.test.class.path" value="/home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/test-classes:/home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/classes:/home/nicolas/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/nicolas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/nicolas/.m2/repository/io/cucumber/cucumber-java/4.2.3/cucumber-java-4.2.3.jar:/home/nicolas/.m2/repository/io/cucumber/cucumber-core/4.2.3/cucumber-core-4.2.3.jar:/home/nicolas/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/home/nicolas/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/home/nicolas/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/home/nicolas/.m2/repository/io/cucumber/cucumber-expressions/6.2.0/cucumber-expressions-6.2.0.jar:/home/nicolas/.m2/repository/io/cucumber/datatable/1.1.12/datatable-1.1.12.jar:/home/nicolas/.m2/repository/io/cucumber/datatable-dependencies/1.1.12/datatable-dependencies-1.1.12.jar:/home/nicolas/.m2/repository/io/cucumber/cucumber-java8/4.2.3/cucumber-java8-4.2.3.jar:/home/nicolas/.m2/repository/net/jodah/typetools/0.5.0/typetools-0.5.0.jar:/home/nicolas/.m2/repository/io/cucumber/cucumber-junit/4.2.3/cucumber-junit-4.2.3.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/nicolas/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/nicolas/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/nicolas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/nicolas/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/nicolas/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/nicolas/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/nicolas/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/nicolas/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/nicolas/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/nicolas/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/nicolas/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/nicolas"/>
@@ -31,13 +31,13 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/surefire/surefirebooter5817912966893762281.jar"/>
+    <property name="surefire.real.class.path" value="/home/nicolas/Documents/POC_JAVA/POCZupSite/POCZupSite/target/surefire/surefirebooter1612892754085601813.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
     <property name="user.name" value="nicolas"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.15.0-45-generic"/>
+    <property name="os.version" value="4.15.0-46-generic"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -60,23 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Buscar uma vaga a partir da pagina inicial do site da Zup" classname="Buscar uma vaga no site da Zup" time="14.683">
-    <error message="element not visible&#10;  (Session info: chrome=72.0.3626.119)&#10;  (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-45-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;sm2-nicolas&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-45-generic&apos;, java.version: &apos;1.8.0_201&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578700 (2f1ed5f9343c13..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:39895}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}&#10;Session ID: 2b4b27ec36b8d304a7022dd7741cc0ee" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
-element not visible
-  (Session info: chrome=72.0.3626.119)
-  (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-45-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'sm2-nicolas', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-45-generic', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578700 (2f1ed5f9343c13..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:39895}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.119, webStorageEnabled: true}
-Session ID: 2b4b27ec36b8d304a7022dd7741cc0ee
-</error>
-    <system-out><![CDATA[&amp#27;[32m.&amp#27;[0m&amp#27;[31mF&amp#27;[0m&amp#27;[36m-&amp#27;[0m&amp#27;[36m-&amp#27;[0m]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 30186
-Only local connections are allowed.
-fev 28, 2019 6:12:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
+  <testcase name="Buscar uma vaga a partir da pagina inicial do site da Zup" classname="Buscar uma vaga no site da Zup" time="25.427"/>
+  <testcase name="Buscar uma vaga no campo de busca da pagina de outra vaga" classname="Buscar uma vaga no site da Zup" time="6.952"/>
 </testsuite>

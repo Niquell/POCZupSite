@@ -5,10 +5,15 @@ import com.automation.ZupSite;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static org.junit.Assert.assertEquals;
+import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
+
+@SuppressWarnings("unused")
 public class BuscarVaga implements En {
-  private ZupSite zupSite = new ZupSite();
-  private Actions actions = new Actions(zupSite.getDriver());
+  private final ZupSite zupSite = new ZupSite();
+  private final Actions actions = new Actions(zupSite.getDriver());
 
   public BuscarVaga() {
     Given("^que o (usuario|usuário) acessa a pagina principal da Zup na parte VemPraZup$", (String arg0) -> {
@@ -30,26 +35,37 @@ public class BuscarVaga implements En {
     });
 
     Then("^A (pagina|página) carregada deve ter o titulo \"([^\"]*)\"$", (String arg0, String arg1) -> {
-      System.out.println(arg0);
+      String selector = "header > h1";
+      WebElement title = zupSite.findElement(By.cssSelector(selector));
+      assertEquals(title.getText(), arg1);
     });
 
-    Given("^que o (usuário|usuario) acessa a pagina da vaga \"([^\"]*)\"$", (String arg0, String arg1) -> {
-      System.out.println(arg0);
+    Given("^que o (usuario|usuário) acessa a pagina de uma vaga com url \"([^\"]*)\"$", (String arg0, String arg1) -> {
+      zupSite.getDriver().get(arg1);
     });
 
-    When("^o (usuario|usuário) fornecer o termo de busca \"([^\"]*)\" e teclar Enter$", (String arg0, String arg1) -> {
-      System.out.println(arg0);
+    When("^o (usuario|usuário) fornecer o termo de busca \"([^\"]*)\"$", (String arg0, String arg1) -> {
+      WebElement searchBar = zupSite.findElement(By.cssSelector("div[class=fields] > input[class=search-query]"));
+      searchBar.sendKeys(arg1);
+      Thread.sleep(500);
+//      searchBar.sendKeys(Keys.RETURN);
     });
 
     And("^clicar no link da vaga \"([^\"]*)\"$", (String arg0) -> {
-      System.out.println(arg0);
+      String selector = "//div[@id='content']//a[contains(text(), '" + arg0 + "')]";
+      WebDriverWait wait = new WebDriverWait(zupSite.getDriver(), 10);
+      WebElement vacancy;
+      //noinspection JUnresolvedReferences
+      vacancy = wait.until(visibilityOfElementLocated(By.xpath(selector)));
+      vacancy.click();
     });
 
     And("^o (usuario|usuário) clicar na vaga \"([^\"]*)\"$", (String arg0, String arg1) -> {
-      WebElement element = zupSite.findElement(By.cssSelector("a[href='https://jobs.kenoby.com/zupit/job/desenvolvedor-backend-python-pleno/5c12b9fb12c0b34a6adf09e1']"));
-      actions.moveToElement(element);
+      String selector = "//a[contains(text(),'" + arg1 + "')]";
+      WebElement vacancy = zupSite.findElement(By.xpath(selector));
+      actions.moveToElement(vacancy);
       actions.perform();
-      element.click();
+      vacancy.click();
     });
   }
 }

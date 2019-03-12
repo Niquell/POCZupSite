@@ -1,4 +1,3 @@
-com/StepDefinitions/EnviarCurriculo.class
 com/automation/BasePage.class
 com/automation/ZupSite.class
 com/StepDefinitions/BuscarVaga.class
