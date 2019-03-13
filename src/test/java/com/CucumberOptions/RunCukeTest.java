@@ -7,8 +7,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
   features = "src/test/java/com/features",
-  glue = "com/StepDefinitions"
-//  tags = { "@wip" }
+  glue = "com/StepDefinitions",
+  tags = { "@vagas" }
 //    tags = { "not @wip","not @notImplemented" },
 )
 public class RunCukeTest {

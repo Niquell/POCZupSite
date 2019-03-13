@@ -16,6 +16,7 @@ public class BuscarVaga implements En {
   private final Actions actions = new Actions(zupSite.getDriver());
 
   public BuscarVaga() {
+
     Given("^que o (usuario|usuário) acessa a pagina principal da Zup na parte VemPraZup$", (String arg0) -> {
       zupSite.start();
       // TODO: porque as vezes a pagina nao carrega direito? <- pesquisar
@@ -55,8 +56,8 @@ public class BuscarVaga implements En {
       String selector = "//div[@id='content']//a[contains(text(), '" + arg0 + "')]";
       WebDriverWait wait = new WebDriverWait(zupSite.getDriver(), 10);
       WebElement vacancy;
-      //noinspection JUnresolvedReferences
-      vacancy = wait.until(visibilityOfElementLocated(By.xpath(selector)));
+      //noinspection JoinDeclarationAndAssignmentJava,JoinDeclarationAndAssignmentJava,JoinDeclarationAndAssignmentJava,JoinDeclarationAndAssignmentJava
+        vacancy = wait.until(visibilityOfElementLocated(By.xpath(selector)));
       vacancy.click();
     });
 

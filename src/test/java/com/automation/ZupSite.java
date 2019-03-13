@@ -28,6 +28,7 @@ public class ZupSite extends BasePage {
 //    element.click();
 //  }
 
+  public void quit() { getDriver().quit(); }
   public void scroll(int xpixels, int ypixels) {
     js.executeScript("window.scrollBy(" + xpixels + "," + ypixels + ")");
   }

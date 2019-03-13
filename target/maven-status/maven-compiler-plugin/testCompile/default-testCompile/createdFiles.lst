@@ -1,4 +1,5 @@
 com/automation/BasePage.class
 com/automation/ZupSite.class
 com/StepDefinitions/BuscarVaga.class
+com/automation/Hooks.class
 com/CucumberOptions/RunCukeTest.class
